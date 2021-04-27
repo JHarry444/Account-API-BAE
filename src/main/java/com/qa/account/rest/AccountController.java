@@ -24,4 +24,5 @@ public class AccountController {
 		Account registeredAccount = this.service.register(account);
 		return new ResponseEntity<Account>(registeredAccount, HttpStatus.CREATED);
 	}
+
 }
