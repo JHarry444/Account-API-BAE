@@ -29,6 +29,12 @@ public class Account {
 		this.prize = prize;
 	}
 
+	public Account(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+
 	// required for the jpa
 	public Account() {
 		super();
