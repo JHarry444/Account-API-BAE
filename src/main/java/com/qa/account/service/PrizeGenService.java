@@ -2,6 +2,7 @@ package com.qa.account.service;
 
 import org.springframework.stereotype.Service;
 
+//Move to new project
 @Service
 public class PrizeGenService {
 

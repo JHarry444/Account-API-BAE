@@ -22,8 +22,10 @@ public class AccountService {
 	}
 
 	public Account register(Account account) {
+		// replace with GET request
 		String accNumber = numberGenerator.genNumber();
 		account.setAccountNumber(accNumber);
+		// replace with GET request
 		Integer prize = this.prizeGenerator.genPrize(accNumber);
 		account.setPrize(prize);
 
