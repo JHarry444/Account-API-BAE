@@ -1,4 +1,4 @@
-package com.qa.account.service;
+package com.qa.prize.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
