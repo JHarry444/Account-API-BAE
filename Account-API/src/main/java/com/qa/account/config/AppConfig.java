@@ -8,8 +8,8 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class AppConfig {
 
-	@LoadBalanced
-	@Bean
+	@LoadBalanced // enables load-balancing and name resolution
+	@Bean // tells Spring to make this RestTemplate for us
 	public RestTemplate loadBalancedRestTemplate() {
 		return new RestTemplate();
 	}
