@@ -30,6 +30,8 @@ public class AccountService {
 		account.setPrize(prize);
 
 		Account registeredAccount = this.repo.save(account);
+		// push account to Q with JMS template - remember to convert it to a String
+		// first!
 		return registeredAccount;
 	}
 }
