@@ -1,5 +1,6 @@
 package com.qa.account.service;
 
+import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -13,10 +14,13 @@ public class AccountService {
 
 	private RestTemplate rest;
 
-	public AccountService(AccountRepo repo, RestTemplate rest) {
+	private JmsTemplate jms;
+
+	public AccountService(AccountRepo repo, RestTemplate rest, JmsTemplate jms) {
 		super();
 		this.repo = repo;
 		this.rest = rest;
+		this.jms = jms;
 	}
 
 	public Account register(Account account) {
@@ -32,6 +36,8 @@ public class AccountService {
 		Account registeredAccount = this.repo.save(account);
 		// push account to Q with JMS template - remember to convert it to a String
 		// first!
+		jms.convertAndSend("account-q", registeredAccount);
 		return registeredAccount;
 	}
+
 }

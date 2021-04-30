@@ -1,0 +1,127 @@
+2021-04-29 10:40:12,054 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-04-29 10:40:13,375 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-04-29 10:40:13,486 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-04-29 10:40:13,685 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-04-29 10:40:13,773 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-04-29 10:40:13,776 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-04-29 10:40:13,778 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-04-29 10:40:13,780 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-04-29 10:40:13,783 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-04-29 10:40:13,785 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-04-29 10:40:13,914 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-04-29 10:40:13,915 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-04-29 10:40:14,589 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-04-29 10:40:14,624 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-04-29 10:40:14,818 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-04-29 10:40:14,823 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-04-29 10:40:16,562 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-04-29 10:40:16,591 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-04-29 10:40:16,617 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-04-29 10:40:16,642 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-04-29 10:40:16,662 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-04-29 10:40:16,666 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-04-29 10:40:16,667 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=e595efb4-a8ce-11eb-b8db-00155de886a6] 
+2021-04-29 10:40:17,844 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-04-29 10:40:18,275 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-04-29 10:40:21,239 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-04-29 10:40:21,373 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-04-29 10:40:21,379 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-04-29 10:40:21,398 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-04-29 10:40:21,469 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-04-29 10:40:21,489 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Shared/baeBroker/etc/\jolokia-access.xml]
+2021-04-29 10:40:22,224 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-04-29 10:40:22,224 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-04-29 10:40:22,241 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-04-29 10:40:59,907 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-04-29 10:41:02,387 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-04-29 10:41:13,262 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: jh
+2021-04-29 10:51:20,198 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-04-29 10:51:20,204 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-04-29 10:51:20,361 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-04-29 10:51:20,524 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-04-29 10:51:20,755 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [e595efb4-a8ce-11eb-b8db-00155de886a6] stopped, uptime 11 minutes
+2021-04-29 11:11:32,383 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-04-29 11:11:32,485 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-04-29 11:11:32,571 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-04-29 11:11:32,690 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 536,870,912
+2021-04-29 11:11:32,754 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-04-29 11:11:32,764 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-04-29 11:11:32,766 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-04-29 11:11:32,768 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-04-29 11:11:32,770 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-04-29 11:11:32,772 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-04-29 11:11:32,961 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-04-29 11:11:32,963 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-04-29 11:11:34,810 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-04-29 11:11:34,818 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-04-29 11:11:34,837 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-04-29 11:11:34,840 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-04-29 11:11:36,379 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-04-29 11:11:36,416 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-04-29 11:11:36,595 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-04-29 11:11:36,779 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-04-29 11:11:36,844 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started NIO Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-04-29 11:11:36,851 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-04-29 11:11:36,863 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=e595efb4-a8ce-11eb-b8db-00155de886a6] 
+2021-04-29 11:11:38,025 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-04-29 11:11:38,362 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-04-29 11:11:41,352 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-04-29 11:11:41,566 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-04-29 11:11:41,583 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-04-29 11:11:41,630 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-04-29 11:11:41,765 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-04-29 11:11:41,806 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/C:/Shared/baeBroker/etc/\jolokia-access.xml]
+2021-04-29 11:11:43,079 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-04-29 11:11:43,081 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-04-29 11:11:43,087 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-04-29 11:11:43,389 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-04-29 11:11:45,581 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-04-29 11:11:49,246 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: jh
+2021-04-29 11:44:01,314 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-04-29 11:44:01,314 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-04-29 11:44:01,315 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-04-29 11:44:01,319 WARN  [org.eclipse.jetty.server.HttpChannel] /console/jolokia/: java.lang.IllegalStateException
+	at org.eclipse.jetty.server.session.Session.beginInvalidate(Session.java:992) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.session.Session.invalidate(Session.java:937) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at io.hawt.web.auth.SessionExpiryFilter.process(SessionExpiryFilter.java:147)
+	at io.hawt.web.auth.SessionExpiryFilter.doFilter(SessionExpiryFilter.java:60)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.apache.activemq.artemis.component.JolokiaFilter.doFilter(JolokiaFilter.java:50) [artemis-web-2.17.0.jar:2.17.0]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:59) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:773) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:905) [jetty-all-9.4.35.v20201120-uber.jar:9.4.35.v20201120]
+	at java.base/java.lang.Thread.run(Thread.java:834) [java.base:]
+
+2021-04-29 16:17:48,864 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: jh
+2021-04-29 17:02:01,294 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity

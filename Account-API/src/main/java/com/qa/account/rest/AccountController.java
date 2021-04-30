@@ -20,7 +20,7 @@ public class AccountController {
 	}
 
 	@PostMapping("/register")
-	public ResponseEntity<Account> createAccount(@RequestBody Account account) {
+	public ResponseEntity<Account> createAccount(@RequestBody Account account) throws Exception {
 		Account registeredAccount = this.service.register(account);
 		return new ResponseEntity<Account>(registeredAccount, HttpStatus.CREATED);
 	}

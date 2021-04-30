@@ -1,0 +1,5 @@
+2021-04-30 08:11:19,679 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-04-30 08:11:19,721 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-04-30 08:11:19,826 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-04-30 08:11:20,252 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-04-30 08:11:20,338 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [e595efb4-a8ce-11eb-b8db-00155de886a6] stopped, uptime 20 hours 59 minutes
